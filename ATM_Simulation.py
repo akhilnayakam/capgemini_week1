@@ -26,7 +26,7 @@ def withdraw_money(balance):
             break
 
 
-def atm_simulation():
+def atm():
     print("Welcome to the ATM!")
     balance = 0.0
     while True:
@@ -53,4 +53,4 @@ def atm_simulation():
         else:
             print("Invalid input. Please enter a number.")
 
-atm_simulation()
+atm()
